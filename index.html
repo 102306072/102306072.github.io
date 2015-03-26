@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>自我介紹</title>
-    <style type="text/css">
+	<meta charset="UTF-8">
+	<title>Calculater</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
 
-	body{
-		background-image: url("https://www.octa.com/wp-content/uploads/2012/02/Concert.jpg");
-		background-repeat: no-repeat;
-		text-align: center;
-	}
-
-	.box{
-		border-radius: 30px;
-		background-color: #ADADAD;
-		opacity:0.9; 
-		left:50%;
-		top:50%;
-		}
-	</style>
 </head>
 <body>
-
+<br>
+<h1>計算機</h1>
+<h2>可連算、多項四則運算、負數、小數點、全面防呆</h2>
 <div class="box">
-	<p> </p>
-    <h1>這是張文瀚的自我介紹</h1>
-    <img src="https://scontent-tpe.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10662142_1026484434035617_1233714932556475848_o.jpg" heigth=30% width=30%>
-    <p>我是資管二張文瀚！！！</p>
-
-   <h2>興趣：</h2>
-   <li>彈吉他</li>
-   <li>唱歌</li>
-   <li>錄音</li>
-   <li>畫畫</li>
-   <p></p>
-   <span>這是我的音樂創作們：</span>
-   <a href="https://soundcloud.com/bbbb00y">Soundcloud</a>
-   <p> </p>
-
+	<br>
+	<input id="message" type="text" readOnly=true value="">
+	<hr>
+	<button class="button num" id="7">7</button>
+	<button class="button num" id="8">8</button>
+	<button class="button num" id="9">9</button>
+	<button class="button ope" id="÷">÷</button>
+	<p></p>
+	<button class="button num" id="4">4</button>
+	<button class="button num" id="5">5</button>
+	<button class="button num" id="6">6</button>
+	<button class="button ope" id="×">×</button>
+	<p></p>
+	<button class="button num" id="1">1</button>
+	<button class="button num" id="2">2</button>
+	<button class="button num" id="3">3</button>
+	<button class="button ope" id="-">-</button>
+	<p></p>
+	<button class="button num" id="0">0</button>
+	<button class="button num" id=".">.</button>
+	<button class="button" id="C">C</button>
+	<button class="button ope" id="+">+</button>
+	<p></p>
+	<button id="calculate">=</button>
 </div>
-
 </body>
 </html>
